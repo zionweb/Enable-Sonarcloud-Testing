@@ -60,6 +60,8 @@ Contains the Helm RBAC enabling yaml file which add the Cluster Role Binding for
 
 ## 2 - Demo setup
 
+
+
 ### 2.1 Initialize AKS cluster with KEDA
 
 Run [initializeAKS](/Powershell/initializeAKS.ps1) powershell script with default values from Powershell directory
