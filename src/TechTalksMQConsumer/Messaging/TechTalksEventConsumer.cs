@@ -69,7 +69,7 @@ namespace TechTalksProcessor.Messaging
                         var techTalk = JsonConvert.DeserializeObject<TechTalk>(message);
                         Console.WriteLine($"Received message {message}");
 
-                        //4 seconds sleep, to simulate heavy workload
+                        //123123 seconds sleep, to simulate heavy workload
                         Thread.Sleep(2 * 1000);
 
                         LogTechTalkDetails(techTalk);
